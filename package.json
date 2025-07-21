@@ -1,0 +1,38 @@
+{
+    "name": "react-ts-template",
+    "version": "1.0.0",
+    "description": "base stuffz",
+    "license": "ISC",
+    "author": "bduimstra",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack serve --port 3000",
+        "build": "NODE_ENV=production webpack"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.31.0",
+        "@types/react": "^19.1.8",
+        "@types/react-dom": "^19.1.6",
+        "css-loader": "^7.1.2",
+        "esbuild-loader": "^4.3.0",
+        "eslint": "^9.31.0",
+        "eslint-plugin-react": "^7.37.5",
+        "globals": "^16.3.0",
+        "html-webpack-plugin": "^5.6.3",
+        "mini-css-extract-plugin": "^2.9.2",
+        "prettier": "^3.6.2",
+        "sass": "^1.89.2",
+        "sass-loader": "^16.0.5",
+        "style-loader": "^4.0.0",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.37.0",
+        "webpack": "^5.100.2",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.2"
+    },
+    "dependencies": {
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    }
+}
